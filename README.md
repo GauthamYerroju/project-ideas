@@ -29,6 +29,9 @@ Later:
 - Smart thumbmails (use OpenCV for area of interest detection)
 - Auto-tagging based on image feature databases (use online feature DBs or cache them offline)
 
+##### Web based image viewer spinoff
+Keep viewer code separate to use on websites
+
 #### Quiz application (in assoc. with R.R.)
 Online Quiz authoring and administering tool
 Min. Requirements:

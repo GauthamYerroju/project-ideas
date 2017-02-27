@@ -17,6 +17,8 @@ Good to have:
 - DB for meme hashes
 - Top memes list (can I track where embed codes are used elsewhere?)
 
+----
+
 #### Image gallery based on Electron:
 
 Cross-platform image viewer (emphasis on viewer and not editor).
@@ -36,6 +38,8 @@ Later:
 - Panorama and PhotoSphere viewer (auto-detect panorama based on aspect ratio, possible autodetection of spheres based on image features or metadata for Google PhotoSpheres)
 - Smart thumbmails (use OpenCV for area of interest detection)
 - Auto-tagging based on image feature databases (use online feature DBs or cache them offline)
+
+----
 
 #### Quiz application (in assoc. with R.R.)
 

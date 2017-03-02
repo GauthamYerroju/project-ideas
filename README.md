@@ -46,15 +46,23 @@ Later:
 Online Quiz authoring and administering tool
 
 Min. Requirements:
-- Quiz viewer from JSON data
-- Fully responsive (all views)
+- User DB
+  - Registration model with email (oauth later)
+  - After login, can create/edit/delete quizes
 - Define type of questions (free-form, multi-choice to start)
+- Quiz Creator
+  - Add diff. type of questions to an editable list
+  - Option to "Publish" -> activates a permalink which is accessible publicly
+  - Responsive layout (not a priority, set min-width if needed)
+- Quiz viewer from JSON data
+  - Just load JSON data and display different question types
+  - Responsive layout (mandatory)
 
 Later:
 - Define more question types (image multichoice)
 - Modularly build editors for different question types
-- Build time or event-based quiz administration
+- Time or event-based quiz administration
 - Define permissions
 - Role creator (map of different permisisons), comes OOTB with some default roles
-- User authentication (keep an internal user entity and link with other login services using OAUTH)
+- User OAUTH implementation
 - Auto-save almost everywhere

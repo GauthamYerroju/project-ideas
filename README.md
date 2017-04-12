@@ -1,6 +1,6 @@
 # Project Ideas
 
-A TODO list of all my project ideas and their status. I have epiphanies all the time and I would like to implement many of them someday. This repo holds those ideas.
+A TODO list of all my project ideas and their status. I have epiphanies all the time and I would like to implement some of them someday. This repo holds those ideas.
 
 ## Ideas
 #### Animated Meme Generator
@@ -66,3 +66,31 @@ Later:
 - Role creator (map of different permisisons), comes OOTB with some default roles
 - User OAUTH implementation
 - Auto-save almost everywhere
+
+----
+
+Android geofencing based on WiFi/Bluetooth signal strength
+- Close range fences like rooms without using GPS
+- Similar projects exist (like https://altbeacon.github.io/android-beacon-library/index.html, I think), should look into those more and see if I can use any
+- Main idea is to check viability of checking range using just WiFi/Bluetooth signal strength
+- Workflow goes something like this: Place beacons and perform one-time calibration (stand in corners of room, or move along corners of room).
+- Primary/moptivating usecase: keel my phone unlocked when I am home (options I know of currently are GPS-based geo-fencing or Google's on-body detection, both of which are not exactly what I want).
+
+----
+
+Anaglyph photo maker app
+
+- Camera app which uses gyroscope information to guide users to take perfect pictures needed for anaglyph
+- Build anaglyph
+- Maybe use gyro readings to infer homography of one pic to the other and adjust it to ideal perspectives to simulate vision from 2 eyes
+
+ALTERNATIVELY:
+
+- Use CV to detect very similar images
+- Develop an algorithm to see if similar images are good fit for an anaglyph picture (eg. detect if subjects haven't moved but perspective changed)
+- Once good candidates are identified, develop algorithm to find focal point and build anaglyph image
+- Typically, distance between cameras (or eyes) should be 1/30 or 1/50 of focal distance (distance from camera to focal point)
+
+This could be a feature in the CV-assisted gallery application project
+
+----
